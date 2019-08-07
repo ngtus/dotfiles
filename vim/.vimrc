@@ -1,1 +1,0 @@
-/home/tunm065/.vimrc
