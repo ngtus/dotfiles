@@ -7,7 +7,10 @@ Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter'
+Plug 'jiangmiao/auto-pairs'
 Plug 'kien/ctrlp.vim'
-Plug 'bling/vim-bufferline'     
 "Plug 'dense-analysis/ale'
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 call plug#end()
