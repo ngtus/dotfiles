@@ -1,6 +1,8 @@
 "REMAP"
 "au VimEnter * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 "au VimLeave * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
+:nnoremap <Leader>" ciw""<Esc>P
+:nnoremap <Leader>' ciw''<Esc>P
 
 filetype plugin indent on
 " show existing tab with 2 spaces width
