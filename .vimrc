@@ -18,15 +18,21 @@ set expandtab
 :set rnu
 
 "AIRLINE"
-" Enable the list of buffers
-let g:airline#extensions#tabline#enabled=1
-" Show buffer number
-let g:airline#extensions#tabline#buffer_nr_show = 1
-" Show just the filename
-let g:airline#extensions#tabline#fnamemod=':t'
+"" Enable the list of buffers
+"let g:airline#extensions#tabline#enabled=1
+"" Show buffer number
+"let g:airline#extensions#tabline#buffer_nr_show = 1
+"" Show just the filename
+"let g:airline#extensions#tabline#fnamemod=':t'
 
 "COMMAND"
 :command Bdo :w|%bd|e#
+
+"COMMENT"
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Align flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
 
 "VIM PLUG"
  " Call the .vimrc.plug file
