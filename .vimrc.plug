@@ -1,13 +1,15 @@
 call plug#begin('~/.vim/plugged')
+" TODO: fuzzyfinder, tagjumping, autocomplete, filebrowsing, snippets, buildintergration
 
 Plug 'vim-airline/vim-airline'
+Plug '~/.vim/plugged/YouCompleteMe'
 Plug 'tpope/vim-surround'
 Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
-Plug 'kien/ctrlp.vim'
+Plug '~/.fzf'
 Plug 'heavenshell/vim-jsdoc'
 Plug 'dense-analysis/ale'
 Plug 'prettier/vim-prettier', {
